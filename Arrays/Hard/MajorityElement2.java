@@ -3,6 +3,7 @@ package Arrays.Hard;
 import java.util.ArrayList;
 
 public class MajorityElement2 {
+    // Boyer-Moore Voting Algorithm
     public static ArrayList<Integer> majorityElement2(int[] nums) {
         Integer candidate1 = null, candidate2 = null;
         int count1 = 0, count2 = 0;
