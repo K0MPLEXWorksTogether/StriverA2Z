@@ -1,7 +1,7 @@
 package LinkedList.Easy;
 
 public class ReverseIterative {
-    public void reverse(Node head) {
+    public Node reverse(Node head) {
         Node prev = null;
         Node curr = head;
         Node next = null;
@@ -12,5 +12,7 @@ public class ReverseIterative {
             prev = curr;
             curr = next;
         }
+
+        return prev;
     }
 }

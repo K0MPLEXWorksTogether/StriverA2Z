@@ -52,6 +52,7 @@ public class DoublyLinkedList {
             if (curr.data == data) {
                 return true;
             }
+            curr = curr.next;
         }
 
         return false;
